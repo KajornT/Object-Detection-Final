@@ -137,7 +137,7 @@ def toggle_theme():
 
 
 #ปุ่มทั้งหมด
-button = tk.Button(root, text="เลือกไฟล์(วีดิ, ภาพ)", command=open_file_dialog, bg="white", fg="black")
+button = tk.Button(root, text="เลือกไฟล์(วีดีโอ, ภาพ)", command=open_file_dialog, bg="white", fg="black")
 button.pack(pady=5)
 
 camera_button = tk.Button(root, text="เปิดกล้อง", command=open_camera, bg="white", fg="black")

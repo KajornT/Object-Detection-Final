@@ -122,7 +122,7 @@ logo_image = tk.PhotoImage(file="Assets/logo.png")
 logo_label = tk.Label(root, image=logo_image)
 logo_label.pack(pady=10)
 
-#กำหนดฟังก์ชันเปลี่ยนธีม
+#กำหนดฟังก์ชั่นเปลี่ยนธีม
 def toggle_theme():
     if root["bg"] == "white":
         root["bg"] = "#202124"  # Dark mode background color
